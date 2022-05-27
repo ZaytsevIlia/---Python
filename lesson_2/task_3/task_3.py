@@ -26,4 +26,4 @@ with open('file.yaml', 'w', encoding='utf-8') as f:
 
 with open('file.yaml', encoding='utf-8') as f:
     f_content = yaml.load(f, Loader=yaml.FullLoader)
-    print(f_content)
+    print(f_content == data_to_yaml)
